@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Login Form Design | CodeLab</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title">
+            Akses Masuk
+         </div>
+         <form action="#" onsubmit="event.preventDefault(); login();">
+            <div class="field">
+               <input type="text" required>
+               <label>Alamat Email</label>
+            </div>
+            <div class="field">
+               <input type="password" required>
+               <label>Sandi</label>
+            </div>
+            <div class="content">
+               <div class="checkbox">
+                  <input type="checkbox" id="remember-me">
+                  <label for="remember-me">Ingat Saya</label>
+               </div>
+               <div class="pass-link">
+                  <a href="#">Lupa Kata Sandi?</a>
+               </div>
+            </div>
+            <div class="field">
+               <input type="submit" value="Masuk">
+            </div>
+            <div class="signup-link">
+               Bukan Member? <a href="#">Daftar Sekarang</a>
+            </div>
+         </form>
+      </div>
+   </body>
+   <script>
+      function login(){
+         window.location.href="../index.html";
+      }
+   </script>
+</html>
